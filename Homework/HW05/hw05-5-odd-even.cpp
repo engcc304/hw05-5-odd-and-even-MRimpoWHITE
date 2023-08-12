@@ -16,3 +16,25 @@
         -22 is an even integer
 
 */
+
+#include<stdio.h>
+
+int main(){
+
+    int ip;
+
+    printf("Input :\n");
+    scanf("%d", &ip);
+
+    if (ip %2 == 0)
+    {
+        printf("%d is an even integer" , ip);
+    }
+    else if (ip %2 == 1)
+    {
+        printf("%d is an odd integer", ip);
+    }
+    
+
+    return 0 ;
+}
